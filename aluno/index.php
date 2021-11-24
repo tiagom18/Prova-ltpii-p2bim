@@ -59,8 +59,9 @@
 } catch (PDOException $e){
 	echo 'Error: '.$e->getMessage();
 }
-
 ?>  
+	<br>
+	<img src="graficos/pizza.php">
 	<br>
 	<p><a href="form_insercao.html">Cadastrar novo aluno</a></p>
 	<p><a href="../index.php">Retornar para Menu Principal</a></p>

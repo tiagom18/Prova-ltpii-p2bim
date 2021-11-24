@@ -23,6 +23,7 @@
   </section>
   <div id="teste">
   </div>
+  <img src="graficos/pizza.php">
 	</body>
 	
 </html>
