@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Cadastro de aluno</title>
+	<meta charset="utf-8">
+
+</head>
+<body>
+	
+	
+		<div id="box">
+			<form>
+				<h1>CADASTRO DE NOTAS</h1>
+			</form>
+			<form id="form" action="include.php" method="POST">
+				<div>
+					<form>
+						<div class="input-container-left">
+
+							<div class="input-container-left">
+								<span>Nome do aluno</span>
+								<input type="text" id="Nome" name="Nome" placeholder="Nome do aluno" required />
+							</div>
+
+							<div class="input-container-left">
+								<span>Primeira nota</span>
+								<input type="number" id="nota1" placeholder="nota 1" name="nota1" min=0 max=10 step= 0.01 />
+							</div>
+						
+							<div class="input-container-left">
+								<span>Segunda nota</span>
+								<input type="number" id="nota2" placeholder="nota 2" name="nota2" min=0 max=10 step= 0.01 />
+							</div>
+						</br>
+						<div class="input-submit-container">
+							<input type="submit" name="acao" value="Enviar">
+							<input type="reset" name="acao" value="cancelar">
+							
+						</div>
+		
+					</form>
+				</div>
+				
+				<p><a href="../index.php">Retornar para Menu Principal</a></p>
+			</form>
+		</div>
+
+
+	
+
+</body>
+
+</html>
