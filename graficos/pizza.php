@@ -22,6 +22,7 @@ echo "Erro: Não foi possível recuperar os dados do banco de dados";
     echo "Erro: " . $erro->getMessage();
 }
 
+
 $data = array(40,60,21,33,12,33);
 
 $graph = new PieGraph(300,300);

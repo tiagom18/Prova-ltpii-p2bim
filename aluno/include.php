@@ -44,7 +44,6 @@
 
 ?>  
  <br>
- <a href="index.php">Ver Alunos cadastrados</a>
  <p><a href="../index.php">Retornar para Menu Principal</a></p>
  
  </body>
