@@ -21,9 +21,7 @@
   
   try {  
   // lista Alunos já cadastrados
-  	$query = "SELECT id_aluno_notas, nm_aluno, vl_nota1,vl_nota2, vl_media, cd_situacao
-	
-      FROM tb_aluno_notas  order by nm_aluno";
+  	$query = "SELECT id_aluno_notas, nm_aluno, vl_nota1,vl_nota2, vl_media, cd_situacao FROM tb_aluno_notas ";
 
   	$stmt = $conn->prepare($query);
  
